@@ -28,7 +28,7 @@ export default function KnowledgeIngestionSlide() {
           transition={{ duration: 0.5 }}
         >
           <img
-            src="/architecture-knowledge-platform.png"
+            src={`${import.meta.env.BASE_URL}architecture-knowledge-platform.png`}
             alt="Knowledge Management Platform — Ingestion and Retrieval Pipelines"
             className="max-w-full max-h-full w-auto h-auto object-contain"
           />

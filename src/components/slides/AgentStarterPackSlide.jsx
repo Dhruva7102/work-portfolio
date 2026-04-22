@@ -28,7 +28,7 @@ export default function AgentStarterPackSlide() {
           transition={{ duration: 0.5 }}
         >
           <img
-            src="/architecture-agent-starter-pack.png"
+            src={`${import.meta.env.BASE_URL}architecture-agent-starter-pack.png`}
             alt="Agent Starter Pack — Auth, Starter Kit, CI Pipeline, Runtime, Telemetry &amp; Network Security"
             className="max-w-full max-h-full w-auto h-auto object-contain"
           />

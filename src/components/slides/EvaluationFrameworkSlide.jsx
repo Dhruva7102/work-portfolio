@@ -28,7 +28,7 @@ export default function EvaluationFrameworkSlide() {
           transition={{ duration: 0.5 }}
         >
           <img
-            src="/architecture-eval-framework.png"
+            src={`${import.meta.env.BASE_URL}architecture-eval-framework.png`}
             alt="Evaluation Framework — Experience, API Gateway, Execution &amp; Evaluation, Foundation, Data Plane, Observability"
             className="max-w-full max-h-full w-auto h-auto object-contain"
           />
