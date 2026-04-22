@@ -1,4 +1,4 @@
-# Tempus Presentation
+# Work Portfolio
 
 A slideshow for **Dhruva's Work** — architectures, cloud processes, and deployments. React, Vite, Tailwind, Framer Motion.
 
@@ -22,8 +22,8 @@ Output: `dist/`.
 ## GitHub Pages
 
 1. Repo **Settings → Pages → Source:** **GitHub Actions**.
-2. Push to **`main`**. [.github/workflows/deploy-github-pages.yml](.github/workflows/deploy-github-pages.yml) builds with `VITE_BASE=/<repo>/` so assets load correctly.
-3. Site: **`https://dhruva7102.github.io/tempus-presentation/`**
+2. Push to **`main`**. [.github/workflows/deploy-github-pages.yml](.github/workflows/deploy-github-pages.yml) builds with `VITE_BASE=/<repo>/` so assets resolve under your repo path.
+3. Site: **`https://dhruva7102.github.io/work-portfolio/`**
 
 `public/.nojekyll` disables Jekyll processing on Pages.
 
